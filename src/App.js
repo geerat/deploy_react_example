@@ -7,7 +7,7 @@ import PatternPage from './pages/PatternPage';
 function App() {
   return (
     <Switch>
-      <Route path="/sample" component={PatternPage} />
+      <Route path="/" component={PatternPage} />
     </Switch>
   );
 }
